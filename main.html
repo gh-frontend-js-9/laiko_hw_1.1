@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 1</title>
+</head>
+<body>
+	<h1>Урок "Формы": теги и их атрибуты.</h1>
+	<h2>Роскажите немного о себе...</h2>
+	<form action="">
+		<fieldset>
+	       <legend><b>Коротко о себе</b></legend><br/>
+
+	       <label>Имя:</label>
+	       <input size="40" type="text" placeholder="Например,Иван" minlength="2" autofocus=""><br/><br/>
+
+	       <label>Фамилия:</label>
+	       <input size="40"  type="text" minlength="2"><br/><br/>
+
+	       <label for="#">Пол:</label>
+	       <input type="radio" id="man" name="gender">
+           <label for="man">мужской</label>
+           <input type="radio" id="woman" name="gender">
+           <label for="woman">женский</label><br/><br/>
+
+           <label>Возраст:
+           <input type="text" size="7px">лет</label>
+
+		</fieldset>
+
+		<fieldset>
+			<legend><b>Подробнее о себе</b></legend>
+
+		    <input type="radio" id="man2" name="gender2">
+		    <label for="man2">Молодой человек</label><br/>
+		    <input type="radio" id="woman2" name="gender2">
+		    <label for="woman2">Девушка</label><br/>
+		    
+		    <input type="text">
+		    <label>Дата рождения</label><br/>
+
+		    <input type="text">
+		    <label>Семейное положение</label><br/>
+
+		    <input type="text">
+		    <label>Социальный статус</label><br/>
+
+		    <input type="text">
+		    <label>Местожительство</label>
+
+		    <h4>Что вы обычно делаете на выходных:</h4>
+
+		    <input type="checkbox"name="weekends">
+		    <label>Сплю</label><br/>
+
+		    <input type="checkbox"name="weekends">
+		    <label>Гуляю с друзьями</label><br/>
+
+		    <input type="checkbox"name="weekends">
+		    <label>Хожу на рыбалку</label><br/>
+
+		    <input type="checkbox"name="weekends">
+		    <label>Играю в игры</label><br/>
+
+		    <h4>Расказать о формах в книге, посвященной HTML:</h4>
+
+		    <select size="1">
+
+              <option>Site frequency</option>	
+              <option>Building forms</option>
+
+            </select><br/>
+
+            <h4>Сколько книг вы прочитали за свою жизнь:</h4>
+
+            <input type="radio" id="age1" name="books">
+            <label for="age1">0-10</label><br/>
+
+            <input type="radio" id="age2" name="books">
+            <label for="age2">11-20</label><br/>
+
+            <input type="radio" id="age3" name="books">
+            <label for="age3">21-50</label><br/>
+
+            <input type="radio" id="age4" name="books">
+            <label for="age4">50+</label><br/><br/>
+
+            <b>Ваши коментарии:</b><br/>
+
+            <textarea cols="50" rows="10"></textarea><br/><br/>
+
+            <select size="3">
+
+              <option>Первая позиция</option>	
+              <option>Вторая позиция</option>
+              <option>Третья позиция</option>
+
+            </select><br/>
+
+		</fieldset>
+
+		<fieldset>
+			<legend><b>И в заключении</b></legend>
+			<input type="text" value="Это поле было введено до вас" size="30"><br/><br/>
+
+            <b>Email:</b><br/>
+            <input type="email" size="30"><br/><br/>
+
+            <b>Хотите подписатся на самую модную рассылку спама?</b><br/>
+            <i>Выберите категории</i><br/><br/>
+
+            <input type="checkbox" name="spam">
+            <label>Оборудование</label><br/>
+
+            <input type="checkbox"name="spam">
+            <label>Как приготовить обеды</label><br/>
+
+            <input type="checkbox" name="spam">
+            <label>Заработай миллион за два дня!</label>
+
+            <h4>Насколько сложная задача:</h4>
+
+            <input type="radio" id="easy" name="task">
+            <label for="easy">Совсем нет</label><br/>
+
+            <input type="radio" id="okey" name="task">
+            <label for="okey">Так себе</label><br/>
+
+            <input type="radio" id="hard" name="task">
+            <label for="hard">Еле справился</label><br/><br/>
+
+            <b>Загрузите вашу работу</b><br/><br>
+            <input type="file">
+
+		</fieldset><br>
+
+        <input type="submit" value="Отправить">
+
+	</form>
+        
+</body>
+</html>
